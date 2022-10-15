@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>
+
+        .title
+        {
+            position:relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 900;
+            height: 200px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 500px;
+            border-radius: 5px;
+            /* background-color: rgb(107, 95, 186); */
+            background-image: repeating-linear-gradient(rgb(150, 169, 130),rgb(196, 167, 167));
+            border: solid 5px #453;
+        }
+        .titlebox
+        {
+            padding-top:50px ;
+            display: flex;
+            justify-content: center;
+        }
+        .taskbody
+        {
+            height: auto;
+            width: 50%;
+            margin: auto;
+            display: flex;
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+
+        }
+        .strikeh
+        {
+            text-decoration: line-through solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="titlebox"><div class="title">TO-DO List</div></div>
+    <div class="taskbody">
+        <p>Enter The Task</p>
+        <input style="margin-left: 5px;" type="text" id="inputtext">
+        <button style="margin-left: 5px;" id="button" onclick="add()">Add</button>
+    </div>
+    <div class="taskbox">
+         <div>Ass</div>
+    </div>
+   
+    <script src="mockscript.js"></script>
+</body>
+</html>
